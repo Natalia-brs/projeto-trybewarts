@@ -26,8 +26,6 @@
   padding: 10px;
 }
 
-
-
 .main-container {
   display: flex;
 }
@@ -35,11 +33,12 @@
 #evaluation-form {
   display: flex;
   width: 675px;
+  height: 700px;
   flex-direction: column;
   border: 1px solid black;
 }
 
-#trybewarts-header-title{
+#trybewarts-header-title {
   display: flex;
   justify-content: center;
 }
@@ -59,17 +58,18 @@
   border: 1px solid black;
 }
 
-#trybewarts-forms-logo{
+#trybewarts-forms-logo {
   height: 500px;
- position: absolute;
- left: 60%;
+  position: absolute;
+  left: 60%;
 }
 
 #nome-sobrenome {
-    display: flex;
-    padding: 10px;
-    border: 1px solid black;
+  display: flex;
+  padding: 10px;
+  border: 1px solid black;
 }
+
 #email-casa {
   display: flex;
   padding: 10px;
@@ -78,4 +78,10 @@
 
  .family-input {
   display: grid;
+}
+
+#counter {
+  resize: none;
+  width: 500px;
+  height: 200px;
 }
