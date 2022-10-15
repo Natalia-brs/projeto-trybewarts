@@ -80,7 +80,7 @@
   display: grid;
 }
 
-#counter {
+#text {
   resize: none;
   width: 500px;
   height: 200px;
