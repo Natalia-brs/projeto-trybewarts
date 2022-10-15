@@ -2,7 +2,7 @@ const getInputEmail = document.getElementById('email-box');
 const getButton = document.getElementById('button-login');
 const getSubmitButton = document.getElementById('submit-btn');
 const agree = document.getElementById('agreement');
-const getText = document.getElementById('text')
+const getText = document.getElementById('textarea')
 const getCounter = document.getElementById('counter');
 
 function buttonPattern(e) {
