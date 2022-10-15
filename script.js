@@ -1,4 +1,3 @@
-java script 
 const getInputEmail = document.getElementById('email-box');
 const getButton = document.getElementById('button-login');
 
