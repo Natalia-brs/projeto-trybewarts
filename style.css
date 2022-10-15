@@ -65,3 +65,14 @@
  left: 60%;
 }
 
+#nome-sobrenome {
+    display: flex;
+    padding: 10px;
+    border: 1px solid black;
+}
+#email-casa {
+  display: flex;
+  padding: 10px;
+  border: 1px solid black;
+
+}
