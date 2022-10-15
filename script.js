@@ -2,7 +2,7 @@ const getInputEmail = document.getElementById('email-box');
 const getButton = document.getElementById('button-login');
 const getSubmitButton = document.getElementById('submit-btn');
 const agree = document.getElementById('agreement');
-const getText = document.getElementById('textarea')
+const getText = document.getElementById('textarea');
 const getCounter = document.getElementById('counter');
 
 function buttonPattern(e) {
@@ -13,19 +13,18 @@ function checkAgree() {
   getSubmitButton.disabled = !agree.checked;
 }
 
+function textArea() {
+  const num = 500;
+  const text = getText.value.length;
+  const count = num - text;
+  getCounter.textContent = count;
+}
 
 window.onload = () => {
   getSubmitButton.addEventListener('click', buttonPattern);
   agree.addEventListener('change', checkAgree);
   getText.addEventListener('input', textArea);
 };
-
-function textArea() {
-  const num = 500;
-  const text = getText.value.length;
-  const count = num - text;
-  getCounter.textContent = count
-}
 
 function loginAlert() {
   const dados = ['tryber@teste.com', 123456];
@@ -39,9 +38,5 @@ function loginAlert() {
     }
   });
 }
-
-
-
-
 
 loginAlert();

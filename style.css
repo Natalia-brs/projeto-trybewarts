@@ -52,11 +52,9 @@
   border: 1px solid black;
 }
 
- .family-input {
+.family-input {
   display: grid;
 }
-
-
 
 #textarea {
   resize: none;
