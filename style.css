@@ -61,7 +61,7 @@
 
 #trybewarts-forms-logo{
   height: 500px;
- display: flex;
- justify-content: flex-end;
+ position: absolute;
+ left: 60%;
 }
 
