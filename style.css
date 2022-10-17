@@ -31,7 +31,7 @@
 body {
   background-image: url('./hp.jpg');
   background-repeat: no-repeat;
-  color: white;
+  color: wheat;
   height: 100vh;
 }
 
@@ -105,5 +105,5 @@ footer {
   align-items: center;
   border-radius: 5px;
   box-shadow: 1px 1px 10px black;
-  
+
 }
