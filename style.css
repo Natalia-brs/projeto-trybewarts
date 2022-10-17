@@ -30,9 +30,9 @@
 
 body {
   background-image: url('./hp.jpg');
-  background-size: cover;
   background-repeat: no-repeat;
   color: white;
+  height: 100vh;
 }
 
 .main-container {
@@ -90,15 +90,20 @@ body {
   height: 200px;
 }
 
+body footer {
+  display: flex;
+  justify-content: center;
+}
+
 footer {
   background-color: black;
   color: wheat;
   height: 80px;
-  width: 600px;
+  width: 60%;
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 5px;
-  margin-left: 35%;
   box-shadow: 1px 1px 10px black;
+  margin-left: 20%;
 }
