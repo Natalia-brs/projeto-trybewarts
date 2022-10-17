@@ -90,11 +90,6 @@ body {
   height: 200px;
 }
 
-body footer {
-  display: flex;
-  justify-content: center;
-}
-
 footer {
   background-color: black;
   color: wheat;
@@ -105,5 +100,4 @@ footer {
   align-items: center;
   border-radius: 5px;
   box-shadow: 1px 1px 10px black;
-
 }
